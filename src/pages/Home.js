@@ -1,14 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import '../styles/Home.css';
-import HomeSideBar from '../components/HomeSidebar';
+import HomeSidebar from '../components/HomeSidebar';
 
 function Home(){
     const navigate = useNavigate();
 
     return (
         <div className="home-container">
-            <HomeSideBar />
+            <HomeSidebar />
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="home-content-container">
@@ -31,7 +31,7 @@ function Home(){
                     <div className="home-nav-link" onClick={() => navigate('/contact')}>CONTACT</div>
                 </nav>
             </div>
-            <div className="line4"></div>
+            <div className="line3"></div>
         </div>
     )
 }

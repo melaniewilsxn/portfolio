@@ -1,4 +1,4 @@
-.home-sidebar {
+.sidebar {
     position: fixed;
     bottom: 0px;
     left: 25px;
@@ -11,22 +11,22 @@
     justify-content: space-between;
 }
 
-.home-copyright-container {
+.copyright-container {
     font-family: "Gruppo", sans-serif;
     font-size: 16px;
-    color: #191919;
+    color: #BEB7A4;
     margin-top: 2px;
 }
 
-.home-sidebar-link {
+.sidebar-link {
     font-family: "Gruppo", sans-serif;
     font-size: 16px;
     text-decoration: none;
-    color: #191919;
+    color: #BEB7A4;
     margin-left: 20px;
 }
 
-.home-sidebar-link:hover {
-    color: #030E84;
+.sidebar-link:hover {
+    color: #3746CE;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
