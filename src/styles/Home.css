@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BEB7A4;
+    margin: 25px;
+}
+
+.home-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+.home-header-container {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 450px;
+    color: #191919;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.divider {
+    width: 1px;
+    height: 400px;
+    background-color: #191919;
+    margin: 0;
+}
+
+.line1 {
+    width: 45%;
+    height: 1px;
+    background-color: #191919;
+    margin: 0;
+    position: absolute;
+    right: 25px;
+}
+
+.line2 {
+    width: 1px;
+    height: 50%;
+    background-color: #191919;
+    margin: 0;
+    position: absolute;
+    right: 25px;
+}
+
+.home-nav-container {
+    text-align: left;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.home-nav-link {
+    font-size: 165px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #191919;
+    margin: 0;
+    line-height: 0.85;
+    display: block;
+    cursor: pointer;
+}
+
+.home-nav-link:hover {
+    color: #030E84;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line4 {
+    width: 45%;
+    height: 1px;
+    background-color: #191919;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    bottom: 17px;
+}
