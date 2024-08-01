@@ -7,7 +7,6 @@ function About(){
         <div className="about-container">
             <Sidebar />
             <div className="line7"></div>
-            <div className="line8"></div>
             <div className="about-content">
                 <div class="left-column">
                     <h1 className="about-header">ABOUT</h1>

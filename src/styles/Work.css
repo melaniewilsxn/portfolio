@@ -1,8 +1,70 @@
-.about-container {
+.work-container {
     background-color: #191919;
     height: 100vh;
+}
+
+.work-content-container {
     display: flex;
-    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.work-header-container {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 450px;
+    color: #c6c0af;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.divider2 {
+    width: 1px;
+    height: 400px;
+    background-color: #c6c0af;
+    margin: 0;
+}
+
+.work-nav-container {
+    text-align: left;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.work-nav-link {
+    font-size: 140px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c6c0af;
+    margin: 0;
+    line-height: 0.70;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.work-nav-link:hover {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
+
+.work-nav-link-description {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    color: #c6c0af;
 }
 
 .line4 {

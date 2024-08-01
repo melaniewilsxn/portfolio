@@ -56,16 +56,6 @@
 }
 
 .line7 {
-    width: 45%;
-    height: 1px;
-    background-color: #c6c0af;
-    margin: 0;
-    position: absolute;
-    right: 25px;
-    top: 25px;
-}
-
-.line8 {
     width: 1px;
     height: 50%;
     background-color: #c6c0af;
