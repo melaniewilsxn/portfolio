@@ -1,8 +1,11 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import { useNavigate } from "react-router-dom";
 import "../styles/Work.css"
 
 function Work(){
+    const navigate = useNavigate()
+
     return (
         <div className="work-container">
             <Sidebar />
@@ -20,13 +23,13 @@ function Work(){
                 </div>
                 <div className="divider2"></div>
                 <nav className="work-nav-container">
-                    <a className="work-nav-link" href="/portfolio/bitenyc">BiteNYC</a>
+                    <div className="work-nav-link" onClick={() => navigate('/bitenyc')}>BiteNYC</div>
                     <p className="work-nav-link-description">- Single-page JavaScript application</p>
-                    <a className="work-nav-link" href="/portfolio/cogni">Cogni</a>
+                    <div className="work-nav-link" onClick={() => navigate('/cogni')}>Cogni</div>
                     <p className="work-nav-link-description">- Single-page React application</p>
-                    <a className="work-nav-link" href="/portfolio/pennywise">PennyWise</a>
+                    <div className="work-nav-link" onClick={() => navigate('/pennywise')}>PennyWise</div>
                     <p className="work-nav-link-description">- Command-line application</p>
-                    <a className="work-nav-link" href="/portfolio/trove">Trove</a>
+                    <div className="work-nav-link" onClick={() => navigate('/trove')}>Trove</div>
                     <p className="work-nav-link-description">- Full-stack application</p>
                 </nav>
             </div>

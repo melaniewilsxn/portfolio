@@ -26,9 +26,9 @@ function Home(){
                 </div>
                 <div className="divider"></div>
                 <nav className="home-nav-container">
-                    <a className="home-nav-link" href="/portfolio/work">WORK</a>
-                    <a className="home-nav-link" href="/portfolio/about">ABOUT</a>
-                    <a className="home-nav-link" href="/portfolio/contact">CONTACT</a>
+                    <div className="home-nav-link" onClick={() => navigate('/work')}>WORK</div>
+                    <div className="home-nav-link" onClick={() => navigate('/about')}>ABOUT</div>
+                    <div className="home-nav-link" onClick={() => navigate('/contact')}>CONTACT</div>
                 </nav>
             </div>
             <div className="line3"></div>
