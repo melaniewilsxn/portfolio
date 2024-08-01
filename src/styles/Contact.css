@@ -16,7 +16,7 @@ body, html {
 .contact-content {
     text-align: left;
     width: 600px;
-    color: #BEB7A4;
+    color: #c6c0af;
     margin-left: 15%;
     margin-top: 30%;
 }
@@ -26,7 +26,7 @@ body, html {
     font-family: "Gruppo", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #BEB7A4;
+    color: #c6c0af;
     margin-bottom: 0px;
 }
 
@@ -35,7 +35,7 @@ body, html {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: #BEB7A4;
+    color: #c6c0af;
     margin-bottom: 15px;
 }
 .contact-online {
@@ -43,25 +43,24 @@ body, html {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color: #BEB7A4;
+    color: #c6c0af;
     text-decoration: none;
     display: block;
 }
 
 .contact-online a {
-    color: #BEB7A4;
+    color: #c6c0af;
     text-decoration: none;
 }
 
 .contact-online a:hover {
-    color: #3746CE;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
 }
 
 .line4 {
     width: 45%;
     height: 1px;
-    background-color: #BEB7A4;
+    background-color: #c6c0af;
     margin: 0;
     position: absolute;
     right: 25px;
@@ -71,7 +70,7 @@ body, html {
 .line5 {
     width: 1px;
     height: 50%;
-    background-color: #BEB7A4;
+    background-color: #c6c0af;
     margin: 0;
     position: absolute;
     right: 25px;
@@ -81,7 +80,7 @@ body, html {
 .line6 {
     width: 45%;
     height: 1px;
-    background-color: #BEB7A4;
+    background-color: #c6c0af;
     margin: 0;
     position: absolute;
     left: 50px;

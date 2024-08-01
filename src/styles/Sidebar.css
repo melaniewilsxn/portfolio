@@ -14,7 +14,7 @@
 .copyright-container {
     font-family: "Gruppo", sans-serif;
     font-size: 16px;
-    color: #BEB7A4;
+    color: #c6c0af;
     margin-top: 2px;
 }
 
@@ -22,11 +22,10 @@
     font-family: "Gruppo", sans-serif;
     font-size: 16px;
     text-decoration: none;
-    color: #BEB7A4;
+    color: #c6c0af;
     margin-left: 20px;
 }
 
 .sidebar-link:hover {
-    color: #3746CE;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: underline;
 }
