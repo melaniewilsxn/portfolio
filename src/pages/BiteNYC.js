@@ -1,6 +1,6 @@
 import React from "react";
 import WorkSidebar from "../components/WorkSidebar";
-import "../styles/BiteNYC.css"
+import "../styles/Project.css"
 
 function BiteNYC(){
     return (

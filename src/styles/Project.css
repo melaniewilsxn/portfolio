@@ -50,7 +50,6 @@
 .projec-overview-content-container {
     flex: 1;
     padding: 20px;
-    /* border: 1px solid red; */
 }
 
 .project-subheader2, .project-overview-description, .project-content, .features-list, .project-subheader3 {
