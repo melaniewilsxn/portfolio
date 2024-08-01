@@ -27,5 +27,6 @@
 }
 
 .sidebar-link:hover {
-    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
 }

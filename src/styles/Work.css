@@ -1,0 +1,36 @@
+.about-container {
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    padding: 25px;
+}
+
+.line4 {
+    width: 45%;
+    height: 1px;
+    background-color: #c6c0af;
+    margin: 0;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.line5 {
+    width: 1px;
+    height: 50%;
+    background-color: #c6c0af;
+    margin: 0;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.line6 {
+    width: 45%;
+    height: 1px;
+    background-color: #c6c0af;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    bottom: 21px;
+}

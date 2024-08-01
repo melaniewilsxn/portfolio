@@ -62,7 +62,7 @@ body, html {
     height: 1px;
     background-color: #c6c0af;
     margin: 0;
-    position: absolute;
+    position: relative;
     right: 25px;
     top: 25px;
 }
@@ -72,7 +72,7 @@ body, html {
     height: 50%;
     background-color: #c6c0af;
     margin: 0;
-    position: absolute;
+    position: relative;
     right: 25px;
     top: 25px;
 }
@@ -82,7 +82,7 @@ body, html {
     height: 1px;
     background-color: #c6c0af;
     margin: 0;
-    position: absolute;
+    position: relative;
     left: 50px;
     bottom: 21px;
 }
