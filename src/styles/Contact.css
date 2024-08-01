@@ -1,24 +1,18 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
 .contact-container {
     background-color: #191919;
     height: 100vh;
+}
+
+.contact-content-container {
     display: flex;
-    padding: 25px;
+    justify-content: left;
+    text-align: left;
+    width: 700px;
 }
 
 .contact-content {
-    text-align: left;
-    width: 600px;
-    color: #c6c0af;
     margin-left: 15%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .contact-title {

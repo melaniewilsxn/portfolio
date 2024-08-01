@@ -1,12 +1,16 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import { useNavigate } from "react-router-dom";
 import "../styles/About.css"
 
 function About(){
+    const navigate = useNavigate()
+
     return (
         <div className="about-container">
             <Sidebar />
             <div className="line7"></div>
+            <div className="line8"></div>
             <div className="about-content">
                 <div class="left-column">
                     <h1 className="about-header">ABOUT</h1>
@@ -28,11 +32,16 @@ function About(){
                     </p>
                     <h3 className="about-subheader-2">SKILLS</h3>
                     <p className="about-paragraph">Backend Development / Full-Stack Development / Project Management / Algorithm Design / Data Structures / Database Management / API Development / Python / JavaScript / React / Redux / Figma / HTML / CSS / SQL / NoSQL Databases / Version Control (Git) / Problem Solving / Data Analysis / Web Design</p>
+                    <div className="about-button-container">
+                        <button className="about-button"  onClick={() => window.open('https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:dda49807-72c6-4c8b-bc9d-29ee47405431', "_blank")}>DOWNLOAD CV</button>
+                        <button className="about-button" onClick={() => navigate('/contact')}>CONTACT ME</button>
+                    </div>
                 </div>
                 <div class="right-column">
                     <img className="profile-picture" src={`${process.env.PUBLIC_URL}/melanie-wilson.jpg`}/>
                 </div>
             </div>
+            <div className="line9"></div>
         </div>
     )
 }
