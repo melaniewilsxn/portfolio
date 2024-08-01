@@ -1,4 +1,4 @@
-.home-sidebar {
+/* .home-sidebar {
     position: fixed;
     bottom: 0px;
     left: 25px;
@@ -16,6 +16,56 @@
     font-size: 16px;
     color: #191919;
     margin-top: 2px;
+}
+
+.home-sidebar-link {
+    font-family: "Gruppo", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #191919;
+    margin-left: 20px;
+}
+
+.home-sidebar-link:hover {
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+} */
+
+.home-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100vh - 50px);
+    position: fixed;
+    bottom: 0px;
+    left: 25px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+}
+
+.home-copyright-container {
+    flex: 1;
+    text-align: left;
+    font-family: "Gruppo", sans-serif;
+    font-size: 16px;
+    color: #191919;
+}
+
+.home-line-container {
+    flex: 7;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-sidebar-line {
+    width: 30%;
+    height: 1px;
+    background-color: #191919;
+}
+
+.home-link-container {
+    flex: 1;
+    text-align: right;
 }
 
 .home-sidebar-link {

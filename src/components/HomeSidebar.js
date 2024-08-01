@@ -7,6 +7,9 @@ function HomeSidebar() {
             <div className="home-copyright-container">
                 © 2024
             </div>
+            <div className="home-line-container">
+                <div className="home-sidebar-line"></div>
+            </div>
             <div className="home-link-container">
                 <a href="https://github.com/melaniewilsxn/" className="home-sidebar-link" target="_blank" rel="noopener noreferrer">GITHUB</a>
                 <a href="https://www.linkedin.com/in/melanie-marie-wilson/" className="home-sidebar-link" target="_blank" rel="noopener noreferrer">LINKEDIN</a>

@@ -1,21 +1,38 @@
 .sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100vh - 50px);
     position: fixed;
     bottom: 0px;
     left: 25px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
     transform: rotate(-90deg);
-    transform-origin: left top;
-    width: calc(100vh - 50px);
-    justify-content: space-between;
+    transform-origin: 0 0;
 }
 
 .copyright-container {
+    flex: 1;
+    text-align: left;
     font-family: "Gruppo", sans-serif;
     font-size: 16px;
     color: #c6c0af;
-    margin-top: 2px;
+}
+
+.line-container {
+    flex: 7;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar-line {
+    width: 30%;
+    height: 1px;
+    background-color: #c6c0af;
+}
+
+.link-container {
+    flex: 1;
+    text-align: right;
 }
 
 .sidebar-link {

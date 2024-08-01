@@ -20,13 +20,13 @@ function BiteNYC(){
                     </div>
                     <div className="projec-overview-content-container">
                         <h3 className="project-subheader2">RESPONSIBILITIES</h3>
-                        <p className="project-overview-description">
-                            - Designing and implementing the user interface<br/>
-                            - Developing the backend using JSON Server and Node.js<br/>
-                            - Ensuring seamless user experience through responsive design<br/>
-                            - Managing data persistence and retrieval<br/>
-                            - Version control using Git
-                        </p>
+                        <ul className="project-overview-description">
+                            <li>Designing and implementing the user interface</li>
+                            <li>Developing the backend using JSON Server and Node.js</li>
+                            <li>Ensuring seamless user experience through responsive design</li>
+                            <li>Managing data persistence and retrieval</li>
+                            <li>Version control using Git</li>
+                        </ul>
                     </div>
                     <div className="projec-overview-content-container">
                         <h3 className="project-subheader2">TECHNOLOGIES</h3>

@@ -7,6 +7,9 @@ function WorkSidebar() {
             <div className="work-copyright-container">
                 © 2024
             </div>
+            <div className="work-sidebar-line-container">
+                <div className="work-sidebar-line"></div>
+            </div>
             <div className="work-link-container">
                 <a href="/portfolio/work" className="work-sidebar-link">WORK</a>
             </div>

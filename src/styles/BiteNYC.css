@@ -108,3 +108,13 @@
     left: 50px;
     bottom: 21px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '\2013';
+    position: absolute;
+    margin-left: -30px;
+}
