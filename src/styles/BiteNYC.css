@@ -1,0 +1,110 @@
+.project-container {
+    background-color: #c6c0af;
+    overflow: auto;
+}
+
+.project-content-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.project-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 75vh;
+    background-color: #191919;
+}
+
+.project-title {
+    font-size: 165px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c6c0af;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-subheader-container, .project-content, .features-list{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.project-subheader {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: #191919;
+}
+
+.project-overview-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.projec-overview-content-container {
+    flex: 1;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.project-subheader2, .project-overview-description, .project-content, .features-list, .project-subheader3 {
+    font-family: "Fahkwang", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #191919;
+    text-align: left;
+}
+
+.project-subheader2, .project-subheader3 {
+    text-decoration: underline;
+}
+
+.project-subheader3 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.github-button {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #191919;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    color: #c6c0af;
+    font-size: 24px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.github-button:hover {
+    background-color: #c6c0af;
+    color: #191919;
+    cursor: pointer;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.line10 {
+    width: 45%;
+    height: 1px;
+    background-color: #191919;
+    margin: 0;
+    position: relative;
+    left: 50px;
+    bottom: 21px;
+}
