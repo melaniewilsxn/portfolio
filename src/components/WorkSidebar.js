@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/WorkSidebar.css"
 
 function WorkSidebar() {
+    const navigate = useNavigate()
+    
     return (
         <div className="work-sidebar">
             <div className="work-copyright-container">
@@ -11,7 +14,7 @@ function WorkSidebar() {
                 <div className="work-sidebar-line"></div>
             </div>
             <div className="work-link-container">
-                <a href="/portfolio/work" className="work-sidebar-link">WORK</a>
+                <div className="work-sidebar-link" onClick={() => navigate('/work')}>WORK</div>
             </div>
         </div>
     );
