@@ -1,6 +1,8 @@
 .home-container {
     background-color: #c6c0af;
     height: 100vh;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .home-content-container {
@@ -87,36 +89,35 @@
     bottom: 21px;
 }
 
-/* Additions: Media queries for different screen sizes */
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
+    .home-container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
     .home-content-container {
         flex-direction: column;
-        justify-content: flex-start;
         justify-content: center;
     }
 
     .home-header-container {
         font-size: 12px;
         width: 90%;
-        margin: 30px 10px;
-        text-align: center; /* Center text for better readability */
+        margin-right: 0px;
+        margin-top: 0px;
+        text-align: center;
     }
 
     .divider {
         height: 1px;
-        width: 50%; /* Make divider full width for better visual separation */
-        margin: 20px 0; /* Add margin for spacing */
-    }
-
-    .line1, .line2, .line3 {
-        width: 0;
-        height: 0;
+        width: 50%;
+        margin: 10px 0px;
     }
 
     .home-nav-container {
         width: 90%;
-        margin: 20px 10px;
-        text-align: center; /* Center text for better readability */
+        margin-left: 0px;
+        text-align: center;
     }
 
     .home-nav-link {
@@ -124,32 +125,18 @@
     }
 }
 
-@media (max-width: 480px) {
-    .home-header-container {
-        font-size: 10px;
-        width: 100%;
-        margin: 15px 5px;
-        text-align: center; /* Center text for better readability */
-        justify-content: center;
-        
-    }
+@media (max-width: 525px) {
 
-    .divider {
-        height: 1px;
-        width: 50%; /* Make divider full width for better visual separation */
-        margin: 10px 0; /* Add margin for spacing */
-    }
-
-    .line1, .line2, .line3 {
+    /* .line1, .line2, .line3 {
         width: 0;
         height: 0;
-    }
+    } */
 
-    .home-nav-container {
-        width: 100%;
+    /* .home-nav-container {
+        width: 90%;
         margin: 10px 5px;
-        text-align: center; /* Center text for better readability */
-    }
+        text-align: center;
+    } */
 
     .home-nav-link {
         font-size: 80px;
