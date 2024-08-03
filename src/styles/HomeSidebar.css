@@ -1,36 +1,3 @@
-/* .home-sidebar {
-    position: fixed;
-    bottom: 0px;
-    left: 25px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: calc(100vh - 50px);
-    justify-content: space-between;
-}
-
-.home-copyright-container {
-    font-family: "Gruppo", sans-serif;
-    font-size: 16px;
-    color: #191919;
-    margin-top: 2px;
-}
-
-.home-sidebar-link {
-    font-family: "Gruppo", sans-serif;
-    font-size: 16px;
-    text-decoration: none;
-    color: #191919;
-    margin-left: 20px;
-}
-
-.home-sidebar-link:hover {
-    text-decoration: line-through;
-    text-decoration-thickness: 1px;
-} */
-
 .home-sidebar {
     display: flex;
     align-items: center;
@@ -79,4 +46,53 @@
 .home-sidebar-link:hover {
     text-decoration: line-through;
     text-decoration-thickness: 1px;
+}
+
+/* Additions: Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .home-sidebar {
+        flex-direction: row; /* Stack items vertically on smaller screens */
+        transform: rotate(0deg); /* Remove rotation for easier readability */
+        width: calc(100vw - 25px);
+        height: auto;
+        bottom: auto;
+        left: 0;
+        top: 0;
+        align-items: flex-start; /* Align items to start vertically */
+        margin: 10px;
+    }
+
+    .home-copyright-container {
+        font-size: 14px;
+    }
+
+    .home-sidebar-line {
+        width: 0; /* Make line full width */
+    }
+
+    .home-sidebar-link {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin-left: 0;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-sidebar {
+        margin: 5px;
+        width: calc(100vw - 10px);
+    }
+
+    .home-sidebar-link {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+        padding-left: 5px;
+    }
+
+    .home-copyright-container {
+        font-size: 12px;
+    }
+
+    .home-sidebar-line {
+        width: 0;
+    }
 }
