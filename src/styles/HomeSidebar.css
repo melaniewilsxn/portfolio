@@ -59,13 +59,8 @@
     }
 }
 
-/* @media (max-width: 525px) {
-
-    .home-sidebar-link {
-        font-size: 12px;
+@media (max-width: 400px) {
+    .home-sidebar {
+        width: calc(100vh - 150px);
     }
-
-    .home-copyright-container {
-        font-size: 12px;
-    }
-} */
+}

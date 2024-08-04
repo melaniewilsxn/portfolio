@@ -4,8 +4,8 @@
 }
 
 .project-content-container {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-bottom: 50px;
 }
 
@@ -24,12 +24,12 @@
     font-style: normal;
     color: #c6c0af;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 
-.project-subheader-container, .project-content, .features-list{
-    margin-left: 100px;
-    margin-right: 100px;
+.project-subheader-container, .project-content, .features-list, .project-subheader3, .project-overview-container{
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .project-subheader {
@@ -41,8 +41,6 @@
 }
 
 .project-overview-container {
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     flex-direction: row;
 }
@@ -63,11 +61,6 @@
 
 .project-subheader2, .project-subheader3 {
     text-decoration: underline;
-}
-
-.project-subheader3 {
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .github-button {
@@ -120,4 +113,89 @@ ul li:before {
     content: '\2013';
     position: absolute;
     margin-left: -30px;
+}
+
+@media (max-width: 950px){
+    .project-title {
+        font-size: 128px;
+    }
+
+    .project-subheader{
+        font-size: 28px;
+    }
+
+    .project-subheader2, .project-overview-description, .project-content, .features-list, .project-subheader3 {
+        font-size: 16px;
+    }
+
+    .github-button {
+        font-size: 20px;
+    }
+
+    .project-overview-container {
+        flex-direction: column;
+    }
+
+    .projec-overview-content-container {
+        flex: 1;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 750px){
+    .project-content-container {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 50px;
+    }
+
+    .project-title {
+        font-size: 100px;
+    }
+
+    .project-subheader{
+        font-size: 24px;
+    }
+
+    .project-subheader2, .project-overview-description, .project-content, .features-list, .project-subheader3 {
+        font-size: 14px;
+    }
+
+    .github-button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575px){
+
+    .project-title {
+        font-size: 80px;
+    }
+
+    .project-subheader{
+        font-size: 20px;
+    }
+
+    .project-subheader2, .project-overview-description, .project-content, .features-list, .project-subheader3 {
+        font-size: 12px;
+    }
+
+    .github-button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px){
+    .project-content-container {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+
+    .project-title-container {
+        height: 65vh;
+    }
+
+    .project-title {
+        font-size: 50px;
+    }
 }

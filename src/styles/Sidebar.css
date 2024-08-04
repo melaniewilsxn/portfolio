@@ -47,3 +47,20 @@
     text-decoration: line-through;
     text-decoration-thickness: 1px;
 }
+
+@media (max-width: 1000px) {
+
+    .copyright-container {
+        font-size: 14px;
+    }
+
+    .sidebar-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        width: calc(100vh - 150px);
+    }
+}

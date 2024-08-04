@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .home-container {
     background-color: #c6c0af;
     height: 100vh;
@@ -142,12 +148,21 @@
 
 @media (max-width: 525px) {
 
-    .line1, .line2, .line3 {
-        width: 0;
-        height: 0;
+    .home-nav-link {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .home-container{
+        overflow: hidden;
     }
 
     .home-nav-link {
-        font-size: 80px;
+        font-size: 65px;
+    }
+
+    .line3 {
+        width: 0;
     }
 }

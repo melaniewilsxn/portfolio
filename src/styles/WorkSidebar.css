@@ -48,3 +48,20 @@
     text-decoration-thickness: 1px;
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+
+    .work-copyright-container {
+        font-size: 14px;
+    }
+
+    .work-sidebar-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .work-sidebar {
+        width: calc(100vh - 150px);
+    }
+}
