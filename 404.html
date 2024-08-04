@@ -6,9 +6,9 @@
     <title>404 - Page Not Found</title>
     <script type="text/javascript">
         // JavaScript to handle redirection
-        var path = window.location.pathname;
-        var newPath = '/portfolio/#' + path.replace('/portfolio', '');
-        window.location.replace(newPath);
+        var path = window.location.pathname.replace('/portfolio', '');
+        var redirectTo = '/portfolio/index.html?redirect=' + path;
+        window.location.replace(redirectTo);
     </script>
 </head>
 <body>
