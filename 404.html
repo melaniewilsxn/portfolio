@@ -7,11 +7,8 @@
     <script type="text/javascript">
         // JavaScript to handle redirection
         var path = window.location.pathname;
-        var redirectTo = '/portfolio/index.html';
-        if (path !== '/portfolio/') {
-            redirectTo += '#' + path;
-        }
-        window.location.replace(redirectTo);
+        var newPath = '/portfolio/index.html#' + path.replace('/portfolio', '');
+        window.location.replace(newPath);
     </script>
 </head>
 <body>
