@@ -43,7 +43,8 @@ function Trove(){
                     </div>
                 </div>
                 <div className="github-button-continer">
-                    <button className="github-button"  onClick={() => window.open('https://github.com/melaniewilsxn/trove-redux', "_blank")}>GITHUB LINK</button>
+                    <button className="github-button"  onClick={() => window.open('https://github.com/melaniewilsxn/trove-redux', "_blank")}>GITHUB LINK</button><br/>
+                    <button className="url-button"  onClick={() => window.open('https://trove-redux.onrender.com/', "_blank")}>URL</button>
                 </div>
                 <div className="project-details-container">
                     <p className="project-content">Trove is a comprehensive book management application designed to empower book enthusiasts to curate and manage their personal libraries effortlessly. With a focus on user experience and community features, Trove offers a robust platform for users to engage with their literary collections and connect with fellow readers.</p>
