@@ -34,7 +34,8 @@ function BiteNYC(){
                     </div>
                 </div>
                 <div className="github-button-continer">
-                    <button className="github-button"  onClick={() => window.open('https://github.com/melaniewilsxn/phase-1-project', "_blank")}>GITHUB LINK</button>
+                    <button className="github-button"  onClick={() => window.open('https://github.com/melaniewilsxn/phase-1-project', "_blank")}>GITHUB LINK</button><br/>
+                    <button className="url-button"  onClick={() => window.open('https://trove-redux.onrender.com/', "_blank")}>URL</button>
                 </div>
                 <div className="project-details-container">
                     <p className="project-content">BiteNYC is a robust single-page application designed to assist food enthusiasts in documenting and sharing their dining experiences throughout New York City. The application offers a user-friendly interface that allows users to add and manage restaurants they have visited, providing an efficient way to keep track of their culinary adventures.</p>

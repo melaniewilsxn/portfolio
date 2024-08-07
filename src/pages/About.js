@@ -33,7 +33,7 @@ function About(){
                     <h3 className="about-subheader-2">SKILLS</h3>
                     <p className="about-paragraph">Backend Development / Full-Stack Development / Project Management / Algorithm Design / Data Structures / Database Management / API Development / Python / JavaScript / React / Redux / Figma / HTML / CSS / SQL / NoSQL Databases / Version Control (Git) / Problem Solving / Data Analysis / Web Design</p>
                     <div className="about-button-container">
-                        <button className="about-button"  onClick={() => window.open('https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:dda49807-72c6-4c8b-bc9d-29ee47405431', "_blank")}>DOWNLOAD CV</button>
+                        <button className="about-button"  onClick={() => window.open('https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:86a7697b-a6a6-44e2-82d4-71e61ac95af7', "_blank")}>DOWNLOAD CV</button>
                         <button className="about-button" onClick={() => navigate('/contact')}>CONTACT ME</button>
                     </div>
                 </div>

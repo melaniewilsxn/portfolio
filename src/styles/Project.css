@@ -63,7 +63,7 @@
     text-decoration: underline;
 }
 
-.github-button {
+.github-button, .url-button {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 8px;
@@ -81,7 +81,7 @@
     margin-bottom: 10px;
 }
 
-.github-button:hover {
+.github-button:hover, .url-button:hover {
     background-color: #c6c0af;
     color: #191919;
     cursor: pointer;
@@ -128,7 +128,7 @@ ul li:before {
         font-size: 16px;
     }
 
-    .github-button {
+    .github-button, .url-button {
         font-size: 20px;
     }
 
@@ -161,7 +161,7 @@ ul li:before {
         font-size: 14px;
     }
 
-    .github-button {
+    .github-button, .url-button {
         font-size: 18px;
     }
 }
@@ -180,7 +180,7 @@ ul li:before {
         font-size: 12px;
     }
 
-    .github-button {
+    .github-button, .url-button {
         font-size: 16px;
     }
 }
